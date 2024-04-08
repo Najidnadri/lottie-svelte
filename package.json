@@ -1,8 +1,11 @@
 {
-	"name": "lottie-svelte",
-	"version": "0.5.1",
+	"name": "lottie-player-svelte",
+	"version": "0.5.2",
 	"license": "MIT",
-	"author": "NajidNadri <mohd.najid.nadri@gmail.com>",
+	"author": "Najidnadri <muhd.najid.nadri@gmail.com>",
+	"description": "Lottie animation player sveltekit components ssr safe.",
+	"homepage": "https://github.com/Najidnadri/lottie-svelte#readme",
+	"repository": "https://github.com/Najidnadri/lottie-svelte",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -24,6 +27,16 @@
 		"dist",
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
+	],
+	"keywords": [
+		"lottie",
+		"animation",
+		"lottiefiles",
+		"web component",
+		"component",
+		"lit-element",
+		"player",
+		"sveltekit"
 	],
 	"peerDependencies": {
 		"svelte": "^4.0.0"
