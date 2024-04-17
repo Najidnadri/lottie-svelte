@@ -1,6 +1,6 @@
 {
 	"name": "lottie-player-svelte",
-	"version": "0.5.2",
+	"version": "0.5.3",
 	"license": "MIT",
 	"author": "Najidnadri <muhd.najid.nadri@gmail.com>",
 	"description": "Lottie animation player sveltekit components ssr safe.",

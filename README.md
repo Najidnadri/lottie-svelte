@@ -18,11 +18,11 @@ SvelteKit Lottie Web Player is a lightweight and easy-to-use library for integra
 # Installation
 To install SvelteKit Lottie Web Player, use your preferred package manager:
 ```bash
-npm install lottie-svelte
+npm install lottie-player-svelte
 # or
-yarn add lottie-svelte
+yarn add lottie-player-svelte
 # or
-pnpm install lottie-svelte
+pnpm install lottie-player-svelte
 ```
 
 # Usage
@@ -70,7 +70,7 @@ import { LottieSvelte, type LottieSvelteInstance } from 'lottie-svelte';
 
 let lottieSvelte: LottieSvelteInstance;
 
-onMounted(() => {
+onMount(() => {
     setTimeout(() => {
         lottieSvelte?.pause()
     }, 500)
